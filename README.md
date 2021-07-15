@@ -61,3 +61,6 @@ user. (One way is to read it as a string convert it to int, and then compare the
 5. Two adjacent y coordinates are zero: In the derivation of case 2 earlier, it was taken that the lengths are not zero. If they are, we end up dividing by zero. So, I mapped this case to the trapezium case instead of the two-triangles case. Eg: (1, 0) (2, 0) (3, 0)
 
 6. Number of points < 2: I return zero and terminate the execution whenever n < 2.
+
+___
+Course Mini Project | COL216: System Architecture | Prof. Preeti Ranjan Panda | Spring 2021-22
